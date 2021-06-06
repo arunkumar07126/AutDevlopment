@@ -28,6 +28,7 @@ public class Google {
 		driver.findElement(By.xpath("/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input")).sendKeys("Hello");
 		//driver.findElement(By.xpath("//*[@id='txtPassword']")).sendKeys("admin123");
 		Thread.sleep(1000);
+		Thread.sleep(2000);
 		driver.findElement(By.xpath("//input[@class='gNO89b']//following::input[@value='Google Search']")).click();
 		driver.close();
 		driver.quit();
